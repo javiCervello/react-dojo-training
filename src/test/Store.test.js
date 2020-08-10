@@ -124,7 +124,7 @@ describe('Store', () => {
             fireEvent.click(apple);
         });
         expect(wrapper.container).toHaveTextContent(`${left} máximo`);
-    });
+    }); 
 
     /* BONUS TRACK */
 
